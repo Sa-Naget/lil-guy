@@ -8,9 +8,9 @@ STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pet_state
 
 # How fast stats decay, in points per hour
 DECAY_PER_HOUR = {
-    "hunger": 4,     # goes UP over time (0 = full, 100 = starving)
-    "boredom": 3,    # goes UP over time (0 = entertained, 100 = bored)
-    "energy": 2,     # goes DOWN over time (100 = rested, 0 = exhausted)
+    "hunger": 8,     # goes UP over time (0 = full, 100 = starving)
+    "boredom": 7,    # goes UP over time (0 = entertained, 100 = bored)
+    "energy": 4,     # goes DOWN over time (100 = rested, 0 = exhausted)
 }
 
 MAX_STAT = 100
