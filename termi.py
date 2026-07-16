@@ -73,14 +73,14 @@ def mood_face(state):
     if not state["alive"]:
         return "(x_x)  ...what a terrible owner :<"
     if state["hunger"] > 80:
-        return "( ꩜ ᯅ ꩜;)⁭ ⁭  I'm starving!"
+        return "( ꩜ ᯅ ꩜;)⁭ ⁭ Ughh I am starving!"
     if state["energy"] < 15:
         return "( _　_ )💤  exhausted... I'm going to sleep..."
     if state["boredom"] > 80:
         return "( ꜆-ࡇ-)꜆  SO bored!!"
     if state["hunger"] < 20 and state["boredom"] < 20 and state["energy"] > 60:
         return "ꉂ(˵˃ ᗜ ˂˵)  thriving!"
-    return "(๑•᎑•๑)  I am okay, could feel so much better tho"
+    return "(๑•᎑•๑)  Okay! thank you for checking up on me"
 
 
 def print_status(state):
